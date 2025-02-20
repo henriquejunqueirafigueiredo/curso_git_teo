@@ -5,4 +5,3 @@ ls -a -> pastas e pastas ocultas do diretório
 cd.. -> voltar para pasta anterior
 mk dir -> criar pasta
 cat -> o que tem dentro do arquivo
-oi2

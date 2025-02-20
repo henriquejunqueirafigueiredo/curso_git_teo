@@ -1,14 +1,14 @@
 COMANDOS GIT
 git init . -> cria o versionamento da pasta
-git status ->mostra o status de atualização dos arquivos na pasta
-git add ->o que eu irei mandar para o commit
-git config --global user|email."nome"-> configura ambiente local para assinatura do commit
+git status -> mostra o status de atualização dos arquivos na pasta
+git add -> o que eu irei mandar para o commit (se usar . pega todos os arquivos da pasta, * todos os nomes, comando* tudo que começa com comando)
+git config --global user|email."nome"-> configura ambiente local para assinatura do commit(usar email e nome um de cada vez)
 git commit -m "mensagem" -> commita 
 git log -> ver os commit
-git diff nome -> ver diferença do arquivo e do arquivo que quero commitar
+git diff nome -> ver diferença do arquivo e do arquivo que quero commitar(é possível ver apenas antes do git add)
 git checkout -b nome -> cria uma branch nova
 git checkout nome -> troca para a branch nome
-git branch -d nome -> deleta a branch que falei
+git branch -d nome -> deleta a branch nome
 git branch -> ver os nomes das branch
 git branch nome -> faz p pull request da branch atual com a nome
 
