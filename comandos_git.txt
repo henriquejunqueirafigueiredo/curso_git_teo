@@ -12,6 +12,7 @@ git branch -d nome -> deleta a branch nome
 git branch -> ver os nomes das branch
 git branch nome -> faz p pull request da branch atual com a nome
 
-COMANDOS GIT HUB
+
 git push origin nome -> envia para o GitHub
 git pull origin nome -> puxa a branch do github 
+git clone <https> -> puxar um arquivo do git
